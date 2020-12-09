@@ -51,7 +51,7 @@ services:
     volumes:
       - "awx_db:/var/lib/postgresql/data"
   redis:
-    image: redis:latest
+    image: projects.registry.vmware.com/pez/redis
     container_name: tools_redis_1
     user: ${CURRENT_UID}
     volumes:

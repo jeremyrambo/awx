@@ -32,7 +32,7 @@ redis_security_context_enabled: true
 redis_security_context_privileged: false
 redis_security_context_user: 1001
 
-kubernetes_redis_image: "redis"
+kubernetes_redis_image: "projects.registry.vmware.com/pez/redis"
 kubernetes_redis_image_tag: "latest"
 kubernetes_redis_config_mount_path: "/usr/local/etc/redis/redis.conf"
 
