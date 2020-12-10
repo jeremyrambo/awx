@@ -249,7 +249,7 @@
     - "{{ deployment }}"
     - "{{ supervisor }}"
     - "{{ launch_awx }}"
-  no_log: true
+  no_log: false
 
 - name: Delete any existing management pod
   shell: |
